@@ -1,0 +1,76 @@
+.Joke-List {
+	display: flex;
+	width: 80%;
+	height: 80%;
+}
+
+.Joke-List-Sidebar {
+	background-color: #9575cd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	text-align: center;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #7e57c2;
+}
+
+.Title {
+	font-size: 4rem;
+	font-weight: 300;
+	margin: 2rem;
+	color: white;
+	letter-spacing: 0.6rem;
+}
+
+.Title span {
+	font-weight: 700;
+	letter-spacing: 0;
+}
+
+.Joke-List-Sidebar img {
+	width: 50%;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #7e57c2;
+	border-radius: 50%;
+}
+
+.Joke-List-Jokes {
+	height: 90%;
+	background: white;
+	align-self: center;
+	width: 70%;
+	overflow: scroll;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #7e57c2;
+}
+
+.loader {
+	color: white;
+	text-align: center;
+}
+
+.Joke-List-button {
+	font-size: 1.5rem;
+	width: 50%;
+	border-radius: 2rem;
+	padding: 1rem 2rem;
+	background: linear-gradient(
+		135deg,
+		rgba(179, 229, 252, 1) 0%,
+		rgba(179, 229, 252, 1) 50%,
+		rgba(240, 98, 146, 1) 50%,
+		rgba(240, 98, 146, 1) 100%
+	);
+	color: white;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	margin: 2rem;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1), inset 0 0 25px #7e57c2;
+	cursor: pointer;
+	word-spacing: 1rem;
+	transition: 0.8 ease;
+}
+
+.Joke-List-button:hover {
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
